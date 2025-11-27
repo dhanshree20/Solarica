@@ -310,7 +310,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const hero = document.querySelector('.hero');
   const layers = hero ? hero.querySelectorAll('.hero-media') : [];
   if (layers.length === 2) {
-    const images = ['images/bg.jpg','images/bg2.jpg','images/bg3.jpg'];
+    const images = ['images/image_1.jpg','images/image_3.jpg','images/image_2.jpg','images/image_5.jpg'];
     let idx = 0;
     let visible = 0;
     layers[0].style.backgroundImage = `url('${images[0]}')`;
