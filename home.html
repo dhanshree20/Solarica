@@ -17,63 +17,9 @@
       body.loading > *:not(.preloader) { visibility: hidden; }
     </style>
 </head>
-  <body class="loading">
-    <script>
-      try {
-        if (sessionStorage.getItem('siteVisited')) {
-          document.body.classList.remove('loading');
-        }
-      } catch (e) {}
-    </script>
-    <!-- ==================== PRELOADER SECTION ==================== -->
-    <div class="preloader" id="preloader">
-        <!-- Particle Background -->
-        <div class="preloader-particles">
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-        </div>
-        
-        <!-- Circular Ring -->
-        <div class="preloader-ring">
-            <svg viewBox="0 0 300 300">
-                <defs>
-                    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                        <stop offset="0%" style="stop-color:#42a5f5;stop-opacity:1" />
-                        <stop offset="50%" style="stop-color:#66bb6a;stop-opacity:1" />
-                        <stop offset="100%" style="stop-color:#ff9800;stop-opacity:1" />
-                    </linearGradient>
-                </defs>
-                <circle class="ring-bg" cx="150" cy="150" r="140"></circle>
-                <circle class="ring-progress" cx="150" cy="150" r="140"></circle>
-            </svg>
-            
-            <!-- Logo in Center -->
-            <div class="preloader-logo">
-                <img src="images/logoo.png" alt="Solarica Logo">
-            </div>
-        </div>
-        
-        <!-- Loading Text -->
-        <div class="preloader-text">Loading</div>
-        
-        <!-- Animated Dots -->
-        <div class="preloader-dots">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        
-        <!-- Tagline -->
-        <div class="preloader-tagline">Powering Your Future with Solar Energy</div>
-    </div>
+  <body>
+
+ 
 
     <!-- ==================== TOP BAR SECTION ==================== -->
     <div class="top-bar" role="region" aria-label="Contact and social bar">
